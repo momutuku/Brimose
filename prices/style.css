@@ -1,0 +1,108 @@
+body{
+  font-family: poppins;
+  background: #eee;
+}
+
+.wrapper{
+  width: 95vw;
+  margin: 5% auto;
+
+}
+
+.wrapper h1{
+  text-align: center;
+  text-decoration: underline;
+  font-family:verdana, arial, helvetica, serif, cursive;
+
+}
+
+.single-price{
+  width: 33%;
+  height:700px;
+  background: #262626;
+  float:left;
+  margin-top: 2%;
+  box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+  text-align: center;
+  transition:0.9s;
+  margin-bottom: 100px;
+
+}
+
+
+.single-price h1{
+  font-size: 18px;
+  color:#fff;
+  line-height:3;
+  text-transform: uppercase;
+}
+
+.single-price:hover{
+  background: #da4357;
+  color:#fff;
+  box-shadow: 0 0 15px rgba(0,0,0,1);
+  transform: scale(1.1);
+  z-index: 1;
+  border-radius: 25px;
+
+}
+
+.single-price:hover .price{
+  border-color: #fff;
+}
+
+.single-price a{
+  text-decoration: none;
+  background: #da4357;
+  color:#fff;
+  padding: 10px 60px;
+  display: inline-block;
+  margin: 10% auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.single-price:hover a{
+  background: #262626;
+  color:#fff;
+
+}
+
+
+.price{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  font-size: 24px;
+
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price h2{
+  font-size: 29px;
+  color: #fff;
+}
+
+.deals{
+  margin-top: 10%;
+
+}
+
+
+.deals h4{
+font-size: 1.7rem;
+font-weight: normal;
+text-align: center;
+color: #fff;
+line-height: 1;
+}
+
+
+
+
+
+/* End */
